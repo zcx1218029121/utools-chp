@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "pluginName": "chp",
+  "description": "彩虹屁",
+  "author": "loafer",
+  "homepage": "https://github.com/zcx1218029121",
+  "preload": "preload.js",
+  "logo": "logo.jpg",
+  "features": [
+    {
+      "platform": [
+        "win32"
+      ],
+      "code": "chp",
+      "explain": "生成彩虹屁并复制",
+      "cmds": [
+        "chp",
+        {
+          "type": "window",
+          "match": {
+            "app": ["WeChat.exe"]
+          },
+          "label": "生成彩虹屁"
+        }
+      ]
+    }
+  ]
+}
