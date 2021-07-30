@@ -29,7 +29,7 @@ window.exports = {
                             show.push({description: JSON.parse(temp).data})
                             eventHandler.emit('after')
                         })
-                        req.on('error', error => {
+                        res.on('error', error => {
                             eventHandler.emit('after')
                         })
                     });
